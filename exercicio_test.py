@@ -14,8 +14,8 @@ erros = 0
 
 for key, value in casosDeTeste.py.casosDeTeste.items():
   entradas = key.split('-')
-  ret = command("python teste.py {0} {1}".format(entradas[0], entradas[1]))
-  # print(ret.decode("utf-8").replace('\n', '') == value)
+  ret = command("python exercicio.py {0} {1}".format(entradas[0], entradas[1]))
+  
   if ret.decode("utf-8").replace('\n', '') != value:
     erros += 1
     print("Erro no caso: ", key, value)
