@@ -32,4 +32,5 @@ O algoritmo deverá receber dois números inteiros, o primeiro será o número q
 - Dentro do arquivo **exercicio.py** existe um código que resolve parcialmente o problema. Vocé deverá validar o que está escrito, realizando as modificações necessárias para a execução correta do algoritmo.
 - Dentro do arquivo **casosDeTeste.py** existe um dicionário no formato: { "X-Y": "saida"}, onde X e Y são as entradas já descritas e devem ser separadas po hífen. Você deverá inserir seus casos de teste nele. Por exemplo, {"1-656781111" : "4"} significa que as entradas serão **X = 1**, **Y = 656781111** e a saida será **4**
 - Após a codificação do algoritmo não esqueça de **commitar as mudanças**
+- Dentro do arquivo **exercicio.py** existem duas variáveis: **num1** e **num2** que representam **X** e **Y** respectivamente. Ou seja, você deverá usa-las como entradas do seu algoritmo.
 
