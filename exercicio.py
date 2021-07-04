@@ -1,3 +1,5 @@
+import sys
+
 num1 = int(sys.argv[1])
 num2 = sys.argv[2]
 
