@@ -1,7 +1,7 @@
 import os
 import copy
 import subprocess
-import casosDeTeste.py
+import casosDeTeste
 
 def command(command):
     env = copy.deepcopy(os.environ)
@@ -12,7 +12,7 @@ def command(command):
 
 erros = 0
 
-for key, value in casosDeTeste.py.casosDeTeste.items():
+for key, value in casosDeTeste.casosDeTeste.items():
   entradas = key.split('-')
   ret = command("python exercicio.py {0} {1}".format(entradas[0], entradas[1]))
   
@@ -22,4 +22,3 @@ for key, value in casosDeTeste.py.casosDeTeste.items():
 
 if erros == 0:
   print("Passou nos testes!")
-
