@@ -1,8 +1,5 @@
-def resposta():
-  pass
-
-num1 = int(input('Digite o primeiro número: '))
-num2 = int(input('Digite o segundo número: '))
+num1 = int(sys.argv[1])
+num2 = sys.argv[2]
 
 cont = 0 
 cont_num2 = 0
